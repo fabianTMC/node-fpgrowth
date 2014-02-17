@@ -1,0 +1,22 @@
+{
+  "author": "Gustavo Kira",
+  "name": "fpgrow",
+  "description": "implementation of fp grow algorithm",
+  "version": "0.1.1",
+  "repository": {
+    "url": "https://github.com/gustavokira/node-fpgrow"
+  },
+  "main": "./lib/fp-grow.js",
+  "keywords": [
+    "data mining",
+    "fpgrow",
+    "basket"
+  ],
+  "bin": {
+    "fpgrow": "./bin/fp-grow"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
