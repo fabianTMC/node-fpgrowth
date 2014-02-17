@@ -6,7 +6,7 @@
   "repository": {
     "url": "https://github.com/gustavokira/node-fpgrow"
   },
-  "main": "./lib/fp-grow.js",
+  "main": "./lib/fp-grow",
   "keywords": [
     "data mining",
     "fpgrow",
