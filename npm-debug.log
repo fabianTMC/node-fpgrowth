@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@1.4.2
+3 info using node@v0.10.21
+4 verbose linkPkg /Users/gustavo/Documents/workspace/node-fpgrow/src
+5 verbose link build target /usr/local/lib/node_modules/fpgrow
+6 verbose install where,what [ '/Users/gustavo/Documents/workspace/node-fpgrow/src', [] ]
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/gustavo/Documents/workspace/node-fpgrow/src', [] ]
+9 info preinstall fpgrow@0.1.1
+10 verbose readDependencies using package.json deps
+11 silly resolved []
+12 info build /Users/gustavo/Documents/workspace/node-fpgrow/src
+13 verbose linkStuff [ false,
+13 verbose linkStuff   false,
+13 verbose linkStuff   false,
+13 verbose linkStuff   '/Users/gustavo/Documents/workspace/node-fpgrow' ]
+14 info linkStuff fpgrow@0.1.1
+15 verbose linkBins fpgrow@0.1.1
+16 verbose linkMans fpgrow@0.1.1
+17 verbose rebuildBundles fpgrow@0.1.1
+18 info install fpgrow@0.1.1
+19 info postinstall fpgrow@0.1.1
+20 info prepublish fpgrow@0.1.1
+21 info build /usr/local/lib/node_modules/fpgrow
+22 verbose linkStuff [ true,
+22 verbose linkStuff   '/usr/local/lib/node_modules',
+22 verbose linkStuff   true,
+22 verbose linkStuff   '/usr/local/lib/node_modules' ]
+23 info linkStuff fpgrow@0.1.1
+24 verbose linkBins fpgrow@0.1.1
+25 verbose link bins [ { fpgrow: './bin/fp-grow' }, '/usr/local/bin', true ]
+26 verbose linkMans fpgrow@0.1.1
+27 error Error: ENOENT, chmod '/usr/local/lib/node_modules/fpgrow/bin/fp-grow'
+28 error If you need help, you may report this *entire* log,
+28 error including the npm and node versions, at:
+28 error     <http://github.com/npm/npm/issues>
+29 error System Darwin 13.0.0
+30 error command "node" "/usr/local/bin/npm" "link"
+31 error cwd /Users/gustavo/Documents/workspace/node-fpgrow/src
+32 error node -v v0.10.21
+33 error npm -v 1.4.2
+34 error path /usr/local/lib/node_modules/fpgrow/bin/fp-grow
+35 error code ENOENT
+36 error errno 34
+37 verbose exit [ 34, true ]
