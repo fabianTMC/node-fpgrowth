@@ -15,8 +15,15 @@
   "bin": {
     "fpgrow": "./bin/fp-grow"
   },
+  "scripts": {
+    "test": "make test"
+  },
   "dependencies": {},
   "engines": {
     "node": "*"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1"
   }
 }
