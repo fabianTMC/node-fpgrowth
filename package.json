@@ -1,19 +1,20 @@
 {
-  "author": "Gustavo Kira",
-  "name": "fpgrow",
-  "description": "implementation of fp grow algorithm",
-  "version": "0.1.1",
+  "author": ["Gustavo Kira", "Fabian Enos"],
+  "name": "fpgrowth",
+  "description": "Implementation of the fp growth algorithm",
+  "version": "0.2",
   "repository": {
-    "url": "https://github.com/gustavokira/node-fpgrow"
+    "url": "https://github.com/fabianTMC/node-fpgrowth"
   },
-  "main": "./lib/fp-grow",
+  "main": "./lib/fp-growth",
   "keywords": [
     "data mining",
-    "fpgrow",
+    "fp growth",
+    "fp-growth",
     "basket"
   ],
   "bin": {
-    "fpgrow": "./bin/fp-grow"
+    "fpgrowth": "./bin/fp-growth"
   },
   "scripts": {
     "test": "make test"
