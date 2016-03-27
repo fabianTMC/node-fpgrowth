@@ -11,4 +11,4 @@ var baskets = [
 ["b","c"]
 ];
 
-console.log(new fpgrowth(5, baskets).main());
+console.log(new fpgrowth(5).fromFile("./baskets.json").main());
