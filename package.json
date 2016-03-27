@@ -2,7 +2,7 @@
   "author": ["Gustavo Kira", "Fabian Enos"],
   "name": "fpgrowth",
   "description": "Implementation of the fp growth algorithm",
-  "version": "0.2",
+  "version": "0.2.0",
   "repository": {
     "url": "https://github.com/fabianTMC/node-fpgrowth"
   },
@@ -17,14 +17,14 @@
     "fpgrowth": "./bin/fp-growth"
   },
   "scripts": {
-    "test": "make test"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "dependencies": {},
   "engines": {
     "node": "*"
   },
   "devDependencies": {
-    "mocha": "^1.18.2",
-    "chai": "^1.9.1"
+    "mocha": "*",
+    "chai": "*"
   }
 }
